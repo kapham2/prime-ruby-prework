@@ -7,8 +7,10 @@ def prime?(num)
     return true
   else
     number_array = (2..(num**0.5).to_int).to_a
+    prime_number = []
     
     number_array.each do |number|
+      
       if num % number != 0
         puts num
         puts number
