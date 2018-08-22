@@ -14,11 +14,12 @@ def prime?(num)
   end
   
   prime_num
+  puts prime_num
 end
 
 
 #prime?(3)
-#prime?(11)
+prime?(11)
 #prime?(105557)
 
 #prime?(-1)
