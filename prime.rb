@@ -32,5 +32,5 @@ end
 #puts(prime?(1))
 #puts(prime?(4))
 #puts(prime?(40))
-puts(prime?(1763))
-#prime?(101013)
+#puts(prime?(1763))
+puts(prime?(101013))
