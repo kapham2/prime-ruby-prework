@@ -3,7 +3,13 @@ def prime?(num)
   number_array = (1..(num**0.5).to_int).to_a
   puts number_array
   
-  prime_num = false
+  if num > 1 && num < 4
+    prime_num = true
+    return prime_num
+  else
+    prime_num = false
+  end
+    
   puts prime_num
   
   puts "Inside iteration"
