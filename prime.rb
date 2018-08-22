@@ -7,7 +7,7 @@ def prime?(num)
   puts prime_num
   
   number_array.each do |number|
-    if num % number == 0 && num >= 2
+    if num % number == 0 & num >= 2
       prime_num = true
       puts prime_num
     end
