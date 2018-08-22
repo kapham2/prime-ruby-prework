@@ -11,14 +11,14 @@ def prime?(num)
     
     number_array.each do |number|
       
-      if num % number != 0
+      if num % number == 0
         puts num
         puts number
         puts num % number
-        return true
+        return false
       end
     end
-    return false
+    return true
   end
 end
 
