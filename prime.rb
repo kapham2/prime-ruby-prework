@@ -13,12 +13,12 @@ def prime?(num)
     puts num >=2
     if num % number != 0 && num >= 2
       prime_num = true
-      puts prime_num
+      return prime_num
     end
   end
   puts "Outside iteration"
   
-  prime_num
+  return prime_num
   puts prime_num
 end
 
