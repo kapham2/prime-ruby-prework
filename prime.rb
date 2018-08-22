@@ -9,9 +9,9 @@ def prime?(num)
   puts "Inside iteration"
   number_array.each do |number|
     puts num % number
-    puts num % number == 0
+    puts num % number != 0
     puts num >=2
-    if num % number == 0 && num >= 2
+    if num % number != 0 && num >= 2
       prime_num = true
       puts prime_num
     end
