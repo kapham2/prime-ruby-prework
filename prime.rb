@@ -15,6 +15,7 @@ def prime?(num)
       puts prime_num
     end
   end
+  puts "Outside iteration"
   
   prime_num
 end
