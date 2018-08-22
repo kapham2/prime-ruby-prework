@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(num)
   number_array = (2..(num**0.5).to_int).to_a
+  puts (2..(num**0.5))
   puts number_array
   
   if num > 1 && num < 4
