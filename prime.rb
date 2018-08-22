@@ -22,7 +22,7 @@ end
 #prime?(11)
 #prime?(105557)
 
-#prime?(-1)
+prime?(-1)
 #prime?(0)
 #prime?(1)
 #prime?(4)
