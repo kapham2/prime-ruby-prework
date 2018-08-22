@@ -1,13 +1,17 @@
 # Add  code here!
 def prime?(num)
   
-  if num > 1 && num < 4
-    prime_num = true
-    return prime_num
+  if num <= 1
+    return false
+  elsif num == 2 || num == 3
+    return true
   else
-    prime_num = false
+    
+    
+    
+    
   end
-  puts prime_num
+  
   
   number_array = (2..(num**0.5).to_int).to_a
   puts number_array
