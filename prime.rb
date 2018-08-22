@@ -18,8 +18,8 @@ def prime?(num)
   end
   puts "Outside iteration"
   
-  return prime_num
   puts prime_num
+  return prime_num
 end
 
 
