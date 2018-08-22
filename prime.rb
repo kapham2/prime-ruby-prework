@@ -21,16 +21,3 @@ def prime?(num)
     return true
   end
 end
-
-
-#prime?(3)
-#prime?(11)
-#prime?(105557)
-
-#puts(prime?(-1))
-#puts(prime?(0))
-#puts(prime?(1))
-#puts(prime?(4))
-#puts(prime?(40))
-#puts(prime?(1763))
-puts(prime?(101013))
