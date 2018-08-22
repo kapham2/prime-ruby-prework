@@ -12,17 +12,17 @@ def prime?(num)
     
   puts prime_num
   
-  puts "Inside iteration"
   number_array.each do |number|
     if num % number != 0 && num >= 2
       prime_num = true
+      puts prime_num
       return prime_num
     end
+    
+    puts prime_num
+    return prime_num
   end
-  puts "Outside iteration"
-  
-  puts prime_num
-  return prime_num
+
 end
 
 
