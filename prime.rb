@@ -10,22 +10,11 @@ def prime?(num)
     
     number_array.each do |number|
     if num % number != 0 && num >= 2
-      prime_num = true
-      puts prime_num
-      return prime_num
+      return true
     end
     
-    puts prime_num
-    return prime_num
+    return false
   end
-    
-    
-    
-  end
-  
-  
-  
-
 end
 
 
