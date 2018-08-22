@@ -16,7 +16,8 @@ def prime?(num)
   prime_num
 end
 
-prime?(3)
+
+#prime?(3)
 #prime?(11)
 #prime?(105557)
 
