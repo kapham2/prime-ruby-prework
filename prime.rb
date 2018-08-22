@@ -9,9 +9,7 @@ def prime?(num)
     number_array = (2..(num**0.5).to_int).to_a
 
     number_array.each do |number|
-      
       return false if num % number == 0
-        
     end
     
     return true
