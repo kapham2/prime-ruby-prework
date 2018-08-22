@@ -6,17 +6,9 @@ def prime?(num)
   elsif num == 2 || num == 3
     return true
   else
+    number_array = (2..(num**0.5).to_int).to_a
     
-    
-    
-    
-  end
-  
-  
-  number_array = (2..(num**0.5).to_int).to_a
-  puts number_array
-  
-  number_array.each do |number|
+    number_array.each do |number|
     if num % number != 0 && num >= 2
       prime_num = true
       puts prime_num
@@ -26,6 +18,13 @@ def prime?(num)
     puts prime_num
     return prime_num
   end
+    
+    
+    
+  end
+  
+  
+  
 
 end
 
