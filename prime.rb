@@ -10,10 +10,8 @@ def prime?(num)
 
     number_array.each do |number|
       
-      if num % number == 0
-        return false
-      end
-      
+      return false if num % number == 0
+        
     end
     
     return true
