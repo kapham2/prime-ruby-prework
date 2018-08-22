@@ -6,6 +6,7 @@ def prime?(num)
   prime_num = false
   puts prime_num
   
+  puts "Inside iteration"
   number_array.each do |number|
     puts num % number == 0
     puts num >=2
