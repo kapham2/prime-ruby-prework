@@ -24,8 +24,8 @@ end
 
 #puts(prime?(-1))
 #puts(prime?(0))
-puts(prime?(1))
-#prime?(4)
+#puts(prime?(1))
+puts(prime?(4))
 #prime?(40)
 #prime?(1763)
 #prime?(101013)
